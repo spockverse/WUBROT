@@ -2,6 +2,12 @@
 
 See [GitHub Releases](https://github.com/spockverse/WUBROT/releases) for downloads and checksums.
 
+## [0.2.185](https://github.com/spockverse/WUBROT/releases/tag/v0.2.185) — 2026-11-23
+
+- Unified Windows, macOS, and Ubuntu installers and checksums under one release.
+- WUBROT selects the newest stable update for the current platform and verifies the download before handing it off after the DAW closes.
+- Windows v0.2.183 can update in the plug-in. macOS and Ubuntu v0.2.184 require one manual upgrade to enable future in-plug-in updates.
+
 ## [0.2.184](https://github.com/spockverse/WUBROT/releases/tag/v0.2.184) — 2026-11-23
 
 - Added a universal macOS installer for VST3 and Audio Unit with a macOS 13 minimum. The installed plug-ins passed validation on macOS Sequoia 15.7.9 on Intel.

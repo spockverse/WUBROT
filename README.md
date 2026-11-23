@@ -2,7 +2,7 @@
 
 **A distortion audio effect by WUBWARE AUDIO.** Add digital grit to bass and other sounds with the Crush Field, or use ROT DNA to shape the tone with a sample. Start with one of three factory presets or load your own WAV or MP3.
 
-**[Windows](https://github.com/spockverse/WUBROT/releases/latest/download/WUBROT-setup.zip)** · **[macOS](https://github.com/spockverse/WUBROT/releases/download/v0.2.184/WUBROT-0.2.184-macOS-Universal.pkg)** · **[Linux](https://github.com/spockverse/WUBROT/releases/download/v0.2.184/WUBROT-0.2.184-Linux-x86_64.deb)** · [All releases](https://github.com/spockverse/WUBROT/releases) · [Changelog](CHANGELOG.md)
+**[Windows](https://github.com/spockverse/WUBROT/releases/latest/download/WUBROT-setup.zip)** · **[macOS](https://github.com/spockverse/WUBROT/releases/download/v0.2.185/WUBROT-0.2.185-macOS-Universal.pkg)** · **[Linux](https://github.com/spockverse/WUBROT/releases/download/v0.2.185/WUBROT-0.2.185-Linux-x86_64.deb)** · [All releases](https://github.com/spockverse/WUBROT/releases) · [Changelog](CHANGELOG.md)
 
 <p align="center">
   <img src="images/wubrot-plugin.webp" width="820" alt="WUBROT with the Riddim Monster factory preset loaded. The Crush Field is on the left, with the ROT DNA waveform and Mutate and Drive controls on the right.">
@@ -35,7 +35,7 @@ Close your DAW and open the macOS `.pkg`. It installs the VST3 and Audio Unit in
 Close your DAW and run this command from the download folder. The package installs the VST3 in `/usr/lib/vst3` and pulls in WebKitGTK.
 
 ```sh
-sudo apt install ./WUBROT-0.2.184-Linux-x86_64.deb
+sudo apt install ./WUBROT-0.2.185-Linux-x86_64.deb
 ```
 
 Reopen your DAW and rescan plug-ins.
@@ -53,4 +53,6 @@ Reopen your DAW and rescan plug-ins.
 
 ## Updates
 
-On Windows, open **Settings → Updates → Check for updates** in WUBROT. When a newer Windows version is available, choose **Update Now**, then close your DAW to let the updater apply it. For manual updates on any platform, get the matching download from the [Releases page](https://github.com/spockverse/WUBROT/releases).
+On v0.2.185 and newer, open **Settings → Updates → Check for updates** in WUBROT. Choose **Update Now** when a compatible release is available, close your DAW, and complete any installer prompts. Get manual downloads from the [Releases page](https://github.com/spockverse/WUBROT/releases).
+
+Windows users on v0.2.183 can install v0.2.185 from the plug-in. macOS and Ubuntu users on v0.2.184 need one manual upgrade to enable in-plug-in updates.
