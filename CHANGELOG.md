@@ -2,6 +2,11 @@
 
 See [GitHub Releases](https://github.com/spockverse/WUBROT/releases) for downloads and checksums.
 
+## [0.2.184](https://github.com/spockverse/WUBROT/releases/tag/v0.2.184) — 2026-11-23
+
+- Added a universal macOS installer for VST3 and Audio Unit with a macOS 13 minimum. The installed plug-ins passed validation on macOS Sequoia 15.7.9 on Intel.
+- Added a Linux x86-64 VST3 installer for Ubuntu 24.04 with X11. The package installs the WebKitGTK dependency.
+
 ## [0.2.183](https://github.com/spockverse/WUBROT/releases/tag/v0.2.183) — 2026-11-23
 
 ### Added
