@@ -30,6 +30,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          test "$(gh api repos/spockverse/WUBROT --jq .private)" = false
           if gh release view v0.2.183 >/dev/null 2>&1; then
             echo 'Release already exists; refusing to overwrite it.'
             exit 1
@@ -50,8 +51,8 @@ jobs:
               assert a['digest']=='sha256:'+hashlib.sha256(p.read_bytes()).hexdigest()
           PY
           gh release edit v0.2.183 --draft=false --latest
-          gh api repos/spockverse/WUBROT/releases/tags/v0.2.183 > "$RUNNER_TEMP/release-status.json"
-          python3 -c 'import json,os;d=json.load(open(os.environ["RUNNER_TEMP"]+"/release-status.json"));assert not d["draft"] and not d["prerelease"];print(d["html_url"])'
+          gh api repos/spockverse/WUBROT/releases/latest > "$RUNNER_TEMP/release-status.json"
+          python3 -c 'import json,os;d=json.load(open(os.environ["RUNNER_TEMP"]+"/release-status.json"));assert d["tag_name"]=="v0.2.183" and not d["draft"] and not d["prerelease"];print(d["html_url"])'
           git fetch origin main
           git worktree add --detach "$RUNNER_TEMP/public-status" origin/main
           cd "$RUNNER_TEMP/public-status"
