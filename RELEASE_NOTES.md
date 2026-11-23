@@ -2,6 +2,7 @@ Windows x64 VST3 stable release.
 
 - Three factory presets with bundled ROT DNA: RIDDIM MONSTER, LIQUID GLASS and METAL TEETH.
 - Branded installer and uninstaller with updated artwork and credits.
+- Recovery from missed preset-completion UI state messages on Windows.
 - In-plugin update checking and downloads from this public release repository.
 
 **Install:** Download `WUBROT-setup.zip`, extract it, fully close your DAW and run `WUBROT-setup.exe`. The installer is unsigned; Windows may show Unknown publisher. Keep only one WUBROT bundle in your DAW scan folders.
