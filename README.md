@@ -8,6 +8,8 @@
   <img src="images/wubrot-plugin.webp" width="820" alt="WUBROT with the Riddim Monster factory preset loaded. The Crush Field is on the left, with the ROT DNA waveform and Mutate and Drive controls on the right.">
 </p>
 
+Built with C++ and JUCE, with an interface written in HTML, CSS, and JavaScript.
+
 ## Install on Windows
 
 1. Download `WUBROT-setup.zip` and extract it with **Extract All**.
