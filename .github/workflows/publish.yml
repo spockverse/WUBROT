@@ -39,7 +39,7 @@ jobs:
           import subprocess,json,hashlib,time
           from pathlib import Path
           for attempt in range(20):
-              r=json.loads(subprocess.check_output(['gh','api','repos/spockverse/WUBROT/releases/tags/v0.2.183']))
+              r=next(r for r in json.loads(subprocess.check_output(['gh','api','repos/spockverse/WUBROT/releases?per_page=100'])) if r['tag_name']=='v0.2.183')
               assert r['draft'] and not r['prerelease']
               if len(r['assets'])==3 and all(a.get('digest') for a in r['assets']):break
               time.sleep(2)
