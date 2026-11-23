@@ -28,6 +28,7 @@ jobs:
               assert z.read('WUBROT.vst3/Contents/x86_64-win/WUBROT.vst3').startswith(b'MZ')
           PY
       - name: Create and verify draft before publication
+        shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
