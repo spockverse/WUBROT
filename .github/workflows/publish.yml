@@ -54,7 +54,7 @@ jobs:
           gh api repos/spockverse/WUBROT/releases/latest > "$RUNNER_TEMP/release-status.json"
           python3 -c 'import json,os;d=json.load(open(os.environ["RUNNER_TEMP"]+"/release-status.json"));assert d["tag_name"]=="v0.2.183" and not d["draft"] and not d["prerelease"];print(d["html_url"])'
           git fetch origin main
-          git worktree add --detach "$RUNNER_TEMP/public-status" origin/main
+          git worktree add --detach "$RUNNER_TEMP/public-status" FETCH_HEAD
           cd "$RUNNER_TEMP/public-status"
           git config user.name 'WUBROT release bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
