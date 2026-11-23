@@ -24,7 +24,7 @@ Setup installs the plugin to the standard Windows VST3 folder.
 C:\Program Files\Common Files\VST3\WUBROT.vst3
 ```
 
-The v0.2.183 installer is unsigned, so Windows may show **Unknown publisher**. To uninstall, find **WUBROT VST3** under **Apps** in Windows Settings.
+The installer is unsigned, so Windows may show **Unknown publisher**. To uninstall, find **WUBROT VST3** under **Apps** in Windows Settings.
 
 ## Current support
 
