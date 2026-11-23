@@ -1,6 +1,0 @@
-{
-  "result": "success",
-  "run": "45195290143",
-  "url": "https://github.com/spockverse/WUBROT/actions/runs/45195290143",
-  "log": "https://github.com/spockverse/WUBROT/releases/tag/untagged-747bfb01f5b51fe8e84e\nhttps://github.com/spockverse/WUBROT/releases/tag/v0.2.183\nhttps://github.com/spockverse/WUBROT/releases/tag/v0.2.183\nFrom https://github.com/spockverse/WUBROT\n * branch            main       -> FETCH_HEAD\n * [new branch]      main       -> origin/main\nPreparing worktree (detached HEAD 9ce79f8)\nHEAD is now at 9ce79f8 Propagate failed release commands through the publication log pipeline\n[detached HEAD 21f2534] Record published WUBROT v0.2.183 release [skip ci]\n 1 file changed, 1 insertion(+)\n create mode 100644 release-status.json\nTo https://github.com/spockverse/WUBROT\n   9ce79f8..21f2534  HEAD -> main\nTo https://github.com/spockverse/WUBROT\n - [deleted]         release-v0.2.183"
-}
