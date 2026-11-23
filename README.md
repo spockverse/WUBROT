@@ -2,7 +2,7 @@
 
 **A distortion audio effect by WUBWARE AUDIO.** Add digital grit to bass and other sounds with the Crush Field, or use ROT DNA to shape the tone with a sample. Start with one of three factory presets or load your own WAV or MP3.
 
-**[Windows](https://github.com/spockverse/WUBROT/releases/latest/download/WUBROT-setup.zip)** · **[macOS](https://github.com/spockverse/WUBROT/releases/download/v0.2.185/WUBROT-0.2.185-macOS-Universal.pkg)** · **[Linux](https://github.com/spockverse/WUBROT/releases/download/v0.2.185/WUBROT-0.2.185-Linux-x86_64.deb)** · [All releases](https://github.com/spockverse/WUBROT/releases) · [Changelog](CHANGELOG.md)
+**[Windows](https://github.com/spockverse/WUBROT/releases/download/v0.2.185/WUBROT-Windowsx64-setup.zip)** · **[macOS](https://github.com/spockverse/WUBROT/releases/download/v0.2.185/WUBROT-0.2.185-macOS-Universal.pkg)** · **[Linux](https://github.com/spockverse/WUBROT/releases/download/v0.2.185/WUBROT-0.2.185-Linux-x86_64.deb)** · [All releases](https://github.com/spockverse/WUBROT/releases) · [Changelog](CHANGELOG.md)
 
 <p align="center">
   <img src="images/wubrot-plugin.webp" width="820" alt="WUBROT with the Riddim Monster factory preset loaded. The Crush Field is on the left, with the ROT DNA waveform and Mutate and Drive controls on the right.">
@@ -12,7 +12,7 @@ Built with C++ and JUCE, with an interface written in HTML, CSS, and JavaScript.
 
 ## Install on Windows
 
-1. Download `WUBROT-setup.zip` and extract it with **Extract All**.
+1. Download `WUBROT-Windowsx64-setup.zip` and extract it with **Extract All**.
 2. Close your DAW and run `WUBROT-setup.exe` from the extracted folder. Follow the setup wizard. If WebView2 is missing, setup downloads the Microsoft runtime.
 3. Reopen your DAW, rescan VST3 plugins if needed, and add **WUBROT** as an effect on an audio or mixer track.
 
